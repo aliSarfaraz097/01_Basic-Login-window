@@ -1,0 +1,78 @@
+/* Universal selector, styles applies to all (eg. div, h2, button etc) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* styles applies to body, Here especially for making the parent Div center */
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d8e2db;
+}
+
+/* Outer main box */
+.parentDiv {
+    background-color: rgb(197, 187, 187);
+    box-shadow: 7px 7px 6px rgba(160, 158, 158, 0.87);
+    padding: 30px;
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+/* login text */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* div for both inputs to give margin and align label at left */
+.inputBox {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* div for both label for give margin at bottom  */
+.inputLabel {
+    display: block;
+    margin-bottom: 5px;
+   
+}
+
+/* targets username and password input box */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.rememberBox {
+    margin-top: 30px;
+    text-align: left;
+}
+
+/* Login button style */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* simple transition when hover over to button  */
+button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Window</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Outer main box -->
+    <div class="parentDiv">
+        <h2>Login</h2>
+        <form >
+            <!-- username input and label -->
+            <div class="inputBox">
+                <label class = "inputLabel" for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter username" required>
+            </div>
+
+            <!-- password input and label -->
+            <div class="inputBox">
+                <label class = "inputLabel" for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password" required>
+            </div>
+
+            <!-- checkbox input and label  -->
+            <div class="rememberBox">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Remember me</label>
+            </div>
+            <br/>
+            
+            <!-- button -->
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
