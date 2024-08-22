@@ -6,7 +6,7 @@ This is a simple and basic login window form.
 
 ![Second Image](./Assets/img2.png)
 
-# Made using 
+# Made using purely
 1. Html 
 2. Css
 
